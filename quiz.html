@@ -1,0 +1,61 @@
+<!-- Due to message limits, I’ll share it in blocks. Here's Block 1: HTML & Styles -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Ultimate Creative Quiz</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+      margin: 0; padding: 20px; color: white;
+    }
+    h1, h2 { text-align: center; }
+    .quiz-container {
+      max-width: 900px;
+      margin: auto;
+      background: rgba(255,255,255,0.05);
+      padding: 30px;
+      border-radius: 20px;
+      box-shadow: 0 8px 32px rgba(0,0,0,0.4);
+    }
+    .question-card {
+      background: rgba(255,255,255,0.1);
+      border-radius: 15px;
+      padding: 15px;
+      margin-bottom: 20px;
+    }
+    label {
+      display: block;
+      margin: 6px 0;
+      background: rgba(255,255,255,0.2);
+      padding: 8px 10px;
+      border-radius: 10px;
+      cursor: pointer;
+    }
+    .submit-btn, .restart-btn {
+      display: block;
+      margin: 25px auto;
+      padding: 12px 25px;
+      font-size: 18px;
+      border-radius: 10px;
+      cursor: pointer;
+      background: #00c9a7;
+      border: none;
+      color: white;
+    }
+    #score-section {
+      display: none;
+      margin-top: 30px;
+      font-size: 20px;
+      padding: 15px;
+      border-radius: 12px;
+      background: rgba(255,255,255,0.15);
+    }
+    .result-detail { margin-top: 20px; }
+    .correct { color: #90ee90; }
+    .wrong { color: #ff6f61; }
+    .timer { text-align: right; font-weight: bold; font-size: 18px; margin-bottom: 10px; }
+  </style>
+</head>
+<body>
